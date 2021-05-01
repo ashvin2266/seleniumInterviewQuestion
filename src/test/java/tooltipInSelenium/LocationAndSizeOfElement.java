@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LocationAndSizeOfElement {
     /*
+    SDET VEDIO 27
     How to find location and size of web Element ?
     by using getLocation() method and GetSize() method is first approach and
     second approach using getRect() method
