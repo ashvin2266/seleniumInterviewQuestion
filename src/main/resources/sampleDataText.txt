@@ -1,0 +1,11 @@
+Scenario:
+test data
+     Given I go to URL as"http://automationpractice.com/index.php"
+     When I click on contact us on home page
+     Given I select a "customer service"from subject heading
+     Given I enter a valid email as"abg@hotmail.com"
+     Given I enter order reference as "A012345"
+     Given I enter a message as "Its regarding your product quality"
+     Given I attached  file
+ #   When I click on send button
+ #   Then I should see the message as "Your message has been successfully sent to our team."
