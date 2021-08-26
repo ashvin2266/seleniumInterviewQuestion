@@ -35,7 +35,7 @@ public class AutocompleteGoogleDropdown {
            dropfield.sendKeys(Keys.ARROW_DOWN);
            text=dropfield.getAttribute("value");
            System.out.println(text);
-           if (text.equalsIgnoreCase("London, OH, USA")){
+           if (text.equalsIgnoreCase("London, On, Canada")){
                Thread.sleep(3000);
                dropfield.sendKeys(Keys.ENTER);
                break;

@@ -16,6 +16,7 @@ public class AlertHandling {
     method is
     Alert alert=driver.switchTo().Alert();
     alert.accept();,alert.dismiss();,alert.getText();,alert.sendKeys();
+    how to handle alert
 
      */
     public static void main(String[] args) throws InterruptedException {

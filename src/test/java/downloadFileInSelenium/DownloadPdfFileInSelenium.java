@@ -27,7 +27,7 @@ public class DownloadPdfFileInSelenium {
 //        How to download the pdf files into the custom directory ?
         /*
                 String location=System.getProperty("user.dir")+"\\downloadFile"+"\\";
-//        first step to make Hashmap to s"tore the preference in key value pair
+//        first step to make Hashmap to store the preference in key value pair
         HashMap preferences=new HashMap();
         preferences.put("plugins.always_open_pdf_externally",true);//this preference is only for pdf file
         preferences.put("download.default_directory",location);// its responsible to store file in location value

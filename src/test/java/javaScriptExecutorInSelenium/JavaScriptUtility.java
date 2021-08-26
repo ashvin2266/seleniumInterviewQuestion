@@ -77,7 +77,7 @@ public class JavaScriptUtility {
 
     */
 //        this is for half height scroll down by js
-        js.executeScript("window.scrollTo(0,500)");
+        js.executeScript("window.scrollTo(0,1200)");
 
     }
     public static void scrollPageUpByJs(WebDriver driver){

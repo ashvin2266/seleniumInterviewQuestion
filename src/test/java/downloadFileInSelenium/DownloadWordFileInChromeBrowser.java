@@ -1,6 +1,7 @@
 package downloadFileInSelenium;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import javaScriptExecutorInSelenium.JavaScriptUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,7 +23,7 @@ How to download the PDF file using selenium WebDriver?
 What is Browser Profile in Firefox?
 What is Mime Type?
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
       /*  WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.get("https://file-examples.com/index.php/sample-documents-download/sample-doc-download/");
@@ -45,6 +46,7 @@ What is Mime Type?
         WebDriver driver=new ChromeDriver(options);
         driver.get("https://file-examples.com/index.php/sample-documents-download/sample-doc-download/");
         driver.manage().window().maximize();
+        JavaScriptUtility.scrollPageDownByJs(driver);
         driver.findElement(By.xpath("//tbody/tr[1]/td[5]/a[1]")).click();
 
     }
