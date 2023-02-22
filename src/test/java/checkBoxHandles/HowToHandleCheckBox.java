@@ -18,9 +18,9 @@ public class HowToHandleCheckBox {
     5.How to select first 3 checkboxes?
      */
     public static void main(String[] args) {
-        selectCheckbox();
+//        selectCheckbox();
         selectAllCheckbox();
-        selectLastCheckboxes();
+//        selectLastCheckboxes();
 
     }
 
